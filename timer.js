@@ -1,13 +1,9 @@
-  const minutes = document.getElementById("minutes");
-  const seconds = document.getElementById("seconds");
-
-let targetTime = getTime()+1500;
-let startTime = getTime()
-
-function timer(){
-    const currentDistance = targetTime - startTime
-
-    const minutes = Math.floor(currentDistance/1000/60);
-    const seconds = Math.floor(distance/1000)%60;
-
-}
+const startBtn = document.querySelector("#startButton");
+const stopBtn = document.querySelector("#pauseButton");
+const resetBtn = document.querySelector("#resetButton");
+const progressbar = document.querySelector(".progressbar");
+const progressbarNumber = document.querySelector(".progressbar .progressbar-number");
+const workPomo = document.getElementById("workPomo");
+const sbButton = document.getElementById("sbButton");
+const lbButton = document.getElementById("lbButton");
+const pomCount = document.querySelector(".pomdoro-count");

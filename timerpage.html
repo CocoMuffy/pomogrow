@@ -9,15 +9,24 @@
   <link rel="stylesheet" href = "timerpage.css">
 </head>
 <body>
-     <div class="main">
-      <div class="timeboxes">
-      <div class="time">
-        <h2 id="minutes"> 00</h2>
+     <div class="page">
+      <div class="timerContainer">
+        <button id="workPomo" class="active">Pomodoro</button>
+        <button id="sbButton">Shortbreak</button>
+        <button id="lbButton">Long break</button>
       </div>
-      <div class="time">
-        <h2 id="seconds"> 00</h2>
+      <div class="pomdoroCount"></div>
+      <div class="progressbar">
+        <div class="progrsbar-inner">
+          <h2 class="progressbar-number">25:00</h2>
+        </div>
       </div>
-     </div>
+      <div class="functionButtons">
+        <button id="startButton">Start</button>
+        <button id="pauseButton">Pause</button>
+        <button id="resetButton">Reset</button>
+      </div>
+    </div>
 </body>
 </body>
 </html>
