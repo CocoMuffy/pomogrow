@@ -4,4 +4,4 @@ well, what would be the solution other than making the pomodoro timer the game!
 every 25 minute work period earns you points which you can spend to grow your tomato empire, which you cultivate during 5 and 15 minute breaks.
 you can also choose to do yoga instead, if you need more activity between study sessions.
 
-this is inteded to be my first submitted project for the athena award.
+this is intended to be my first submitted project for the athena award.
