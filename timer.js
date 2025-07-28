@@ -1,5 +1,5 @@
 //pulling variables from html/css
-const startButton = document.querySelector("#startButton");
+const beginButton = document.querySelector("#startButton");
 const stopButton = document.querySelector("#pauseButton");
 const resetButton = document.querySelector("#resetButton");
 const progressbar = document.querySelector(".progressbar");
@@ -22,10 +22,10 @@ let progressInt;
 let pomoType = "WORK";
 
 // various event listeners for html buttons
-startButton.addEventListener("click", () =>{
+beginButton.addEventListener("click", () =>{
     startTimer();
 });
-stopButton.addEventListener("click", (), =>{
+stopButton.addEventListener("click", () =>{
     pause();
 });
 workButton.addEventListener("click", () =>{
@@ -44,7 +44,7 @@ resetButton.addEventListener("click", () =>{
 // functions for event listeners
 
 function startTimer(){
-    progressInterval = setInterval(() => {
+    progressInt = setInterval(() => {
     timerValue--;
     console.log(timerValue);
     setProgressInfo();
