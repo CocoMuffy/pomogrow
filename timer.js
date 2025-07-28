@@ -103,9 +103,9 @@ function setTimeType(type){
 function resetTimer(){
     clearInterval(progressInt);
     timerValue = 
-    pomodoroType == "WORK"
+    pomoType == "WORK"
     ? wTime
-    : pomodoroType == "SHORT"
+    : pomoType == "SHORT"
     ? sbTime
     : lbTime;
     multiplierValue = 360/timerValue;

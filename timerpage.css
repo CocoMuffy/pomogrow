@@ -35,7 +35,7 @@ body{
     background-color: #f3486d;
     cursor: pointer;
 }
-.timer-container button: hover {
+.timer-container button hover {
     transform: scale(1.2);
 }
 .timer-container .active {
@@ -55,7 +55,7 @@ body{
     justify-content: space-between;
     width: 80%;
 }
-.function-buttons button: hover {
+.function-buttons button hover {
     transform: scale(1.2);
 }   
 #startButton, #pauseButton,#resetButton {
